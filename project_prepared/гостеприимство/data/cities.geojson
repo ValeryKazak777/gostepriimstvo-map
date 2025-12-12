@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "cities",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "MHMCMG", "population": "NN", "pollution": null }, "geometry": { "type": "Point", "coordinates": [ 37.603274139984791, 55.744355139894338 ] } }
+]
+}
