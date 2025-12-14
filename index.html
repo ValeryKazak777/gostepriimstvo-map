@@ -3,8 +3,8 @@
 <head>
 	<title>Гостеприимство</title>
 	<meta charset="UTF-8">
-	<script src="проект_подготовленный/гостеприимство/bin/leaflet.js"></script>
-	<link rel="stylesheet" href="проект_подготовленный/гостеприимство/bin/leaflet.css">
+	<script src="project_prepared/гостеприимство/bin/leaflet.js"></script>
+	<link rel="stylesheet" href="project_prepared/гостеприимство/bin/leaflet.css">
 	<style>
 		h1.tt1 {color : #0000FF; text-align: center}
 		#mymap {height: 530px}
@@ -13,11 +13,11 @@
 </head>
 <body>
 	<h1 class="tt1">
-  <img src="проект_подготовленный/гостеприимство/gerb-almaty1.png"
+  <img src="project_prepared/гостеприимство/gerb-almaty1.png"
        width="50" height="35" style="vertical-align: middle;">
   Гостеприимный Алматы	</h1>	
 	<div id="mymap"></div>
-	<script src="проект_подготовленный/гостеприимство/data/cities_pollution.js"></script>	
+	<script src="project_prepared/гостеприимство/data/cities_pollution.js"></script>	
 	<script>
 		var OSMmap = L.tileLayer('http://a.tile.openstreetmap.org/{z}/{x}/{y}.png' , {});  
 		var GS = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{maxZoom: 20, subdomains: ['mt0','mt1','mt2','mt3']});
@@ -36,25 +36,25 @@
 			});
 		
 		var myIcon = L.icon({
-			iconUrl: "проект_подготовленный/гостеприимство/data/icons/violet-icon.png"
+			iconUrl: "project_prepared/гостеприимство/data/icons/violet-icon.png"
 			});
 		var myIconLG = L.icon({
-			iconUrl: "проект_подготовленный/гостеприимство/data/icons/light-green-icon.png"
+			iconUrl: "project_prepared/гостеприимство/data/icons/light-green-icon.png"
 			});
 		var myIconO = L.icon({
-			iconUrl: "проект_подготовленный/гостеприимство/data/icons/orange-icon.png"
+			iconUrl: "project_prepared/гостеприимство/data/icons/orange-icon.png"
 			});
 		var myIconR = L.icon({
-			iconUrl: "проект_подготовленный/гостеприимство/data/icons/red-icon.png"
+			iconUrl: "project_prepared/гостеприимство/data/icons/red-icon.png"
 			});
 		var myIconCh = L.icon({
-			iconUrl: "проект_подготовленный/гостеприимство/data/icons/Metka1.gif"
+			iconUrl: "project_prepared/гостеприимство/data/icons/Metka1.gif"
 			});	
 		var myIconUPS = L.icon({
 			iconUrl: "проект_подготовленный/гостеприимство/data/icons/Karta111.gif"
 			});
 		var myIconV = L.icon({
-			iconUrl: "проект_подготовленный/гостеприимство/data/icons/yellow-icon.png"
+			iconUrl: "project_prepared/гостеприимство/data/icons/yellow-icon.png"
 			});
 					// Молодежные локации
 			L.control.layers(baseLayers).addTo(map);
